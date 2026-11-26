@@ -8,7 +8,7 @@ on:
 
 jobs:
   cancel:
-    runs-on: ubuntu-latest
+    runs-on: play-2vcpu
     timeout-minutes: 3
     steps:
       - uses: styfle/cancel-workflow-action@0.6.0

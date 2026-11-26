@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   size:
-    runs-on: ubuntu-latest
+    runs-on: play-2vcpu
     env:
       CI_JOB_NUMBER: 1
     steps:

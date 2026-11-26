@@ -9,7 +9,7 @@ on:
 
 jobs:
   semantic:
-    runs-on: ubuntu-latest
+    runs-on: play-2vcpu
     steps:
       - uses: amannn/action-semantic-pull-request@v5
         env:
